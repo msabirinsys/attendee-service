@@ -1,6 +1,6 @@
 applications:
 - name: attendee-service
-  instances: 1
+  instances: 2
   memory: 512M
   disk_quota: 1024M
   random-route: true
