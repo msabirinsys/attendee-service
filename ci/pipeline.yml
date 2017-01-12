@@ -28,6 +28,7 @@ jobs:
   public: true
   plan:
   - get: attendee-service-source
+    trigger: true
   - task: package
     file: attendee-service-source/ci/tasks/package.yml
   - put: deploy-attendee-service
@@ -39,6 +40,7 @@ jobs:
   public: true
   plan:
   - get: attendee-service-source
+    trigger: true
   - task: smoke_test
     file: attendee-service-source/ci/tasks/smoke-test.yml
     params:
