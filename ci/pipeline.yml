@@ -46,4 +46,4 @@ jobs:
   - task: smoke_test
     file: attendee-service-source/ci/tasks/smoke-test.yml
     params:
-      ATTENDEE_SERVICE_URL: https://attendee-service-semifixed-overfactiousness.cfapps-02.haas-66.pez.pivotal.io
+      ATTENDEE_SERVICE_URL: http://attendee-service-semifixed-overfactiousness.cfapps-02.haas-66.pez.pivotal.io
